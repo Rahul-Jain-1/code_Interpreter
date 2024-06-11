@@ -103,4 +103,4 @@ This application uses the Google Gemini AI model instead of OpenAI's GPT-3.5 API
 
 ## Notes
 
-- This application uses the Google
+- This application uses the Google Gemini AI model instead of OpenAI's GPT-3.5 API. The reason for this is that I have exhausted the free API access for GPT-3.5 and do not currently have access to it. Hence, the Google Gemini API is used as an alternative to provide similar functionality.
