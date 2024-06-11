@@ -9,7 +9,7 @@ Welcome to the Code Interpreter Streamlit application! This application allows u
 - [File Formats Supported](#file-formats-supported)
 - [Functionality](#functionality)
 - [Environment Variables](#environment-variables)
-- [Test Cases](#test-case)
+- [Test Cases](#test-cases)
 
 ## Installation
 
