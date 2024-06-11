@@ -1,0 +1,8 @@
+streamlit
+streamlit_chat
+PyPDF2
+pandas 
+numpy
+python-dotenv
+python-docx
+tiktoken
