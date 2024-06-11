@@ -74,28 +74,33 @@ The application uses environment variables to store sensitive information like t
 
 This application uses the Google Gemini AI model instead of OpenAI's GPT-3.5 API. The reason for this is that I have exhausted the free API access for GPT-3.5 and do not currently have access to it. Hence, the Google Gemini API is used as an alternative to provide similar functionality.
 
+
 ## Test Cases
 
-Test Case 1: PDF File
-File: sample.pdf
-Content: A PDF file containing a few paragraphs of text.
-User Prompt: "What is the main topic of the first paragraph?"
-Expected Output: A summary or the main topic of the first paragraph in the PDF.
+### Test Case 1: PDF File
+- **File**: `sample.pdf`
+- **Content**: A PDF file containing a few paragraphs of text.
+- **User Prompt**: "What is the main topic of the first paragraph?"
+- **Expected Output**: A summary or the main topic of the first paragraph in the PDF.
 
-Test Case 2: Excel File
-File: sample.xlsx
-Content: An Excel file with multiple sheets. One sheet contains a table of sales data.
-User Prompt: "What is the total sales for the month of January?"
-Expected Output: The total sales amount for January.
+### Test Case 2: Excel File
+- **File**: `sample.xlsx`
+- **Content**: An Excel file with multiple sheets. One sheet contains a table of sales data.
+- **User Prompt**: "What is the total sales for the month of January?"
+- **Expected Output**: The total sales amount for January.
 
-Test Case 3: CSV File
-File: sample.csv
-Content: A CSV file with a list of employees, including their names, departments, and salaries.
-User Prompt: "Which department has the highest average salary?"
-Expected Output: The name of the department with the highest average salary.
+### Test Case 3: CSV File
+- **File**: `sample.csv`
+- **Content**: A CSV file with a list of employees, including their names, departments, and salaries.
+- **User Prompt**: "Which department has the highest average salary?"
+- **Expected Output**: The name of the department with the highest average salary.
 
-Test Case 4: DOCX File
-File: sample.docx
-Content: A DOCX file containing a company policy document.
-User Prompt: "What are the key points in the employee conduct policy?"
-Expected Output: A list or summary of the key points in the employee conduct policy section.
+### Test Case 4: DOCX File
+- **File**: `sample.docx`
+- **Content**: A DOCX file containing a company policy document.
+- **User Prompt**: "What are the key points in the employee conduct policy?"
+- **Expected Output**: A list or summary of the key points in the employee conduct policy section.
+
+## Notes
+
+- This application uses the Google
