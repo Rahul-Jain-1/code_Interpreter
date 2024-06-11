@@ -15,13 +15,13 @@ Welcome to the Code Interpreter Streamlit application! This application allows u
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/code-interpreter.git
+    git clone https://github.com/Rahul-Jain-1/code-interpreter.git
     cd code-interpreter
     ```
 
-2. Run the setup script:
+2. Install all the requirements:
     ```sh
-    ./setup.sh
+    pip install requirements.txt
     ```
 
 ## Usage
@@ -66,4 +66,8 @@ Welcome to the Code Interpreter Streamlit application! This application allows u
 
 ## Environment Variables
 
-The application uses environment variables to store sensitive information like the Google API key. Make sure to create a `.env` file in the root directory with the following content:
+The application uses environment variables to store sensitive information like the Google API key. Make sure to create a `.env` file in the root directory with the following content: 
+```
+    GOOGLE_API_KEY=your_google_api_key
+
+```
